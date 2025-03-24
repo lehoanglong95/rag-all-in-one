@@ -9,26 +9,7 @@
 
 ## Introduction
 
-RAGtoolkit is a comprehensive repository that serves as a guide to building Retrieval-Augmented Generation (RAG) applications. It provides a curated collection of tools, libraries, and frameworks necessary for developing robust RAG systems. This toolkit aims to simplify the process of implementing RAG by offering detailed explanations of key components and recommendations for the most effective libraries for each aspect of the RAG pipeline.
-
-## What is RAG?
-
-Retrieval-Augmented Generation (RAG) is an architecture that enhances Large Language Models (LLMs) by supplementing the generation process with relevant information retrieved from external knowledge sources. This approach addresses the limitations of traditional LLMs by:
-
-1. Providing access to information beyond the model's training data
-2. Reducing hallucinations by grounding responses in factual sources
-3. Enabling real-time knowledge updates without retraining the model
-4. Improving transparency through citation of sources
-
-The RAG process typically involves the following steps:
-1. Ingesting and preprocessing documents
-2. Chunking documents into manageable segments
-3. Creating vector embeddings of these chunks
-4. Storing documents and vectors in appropriate databases
-5. Processing user queries through semantic and/or keyword search
-6. Retrieving relevant documents
-7. Ranking or reranking the retrieved documents
-8. Using an LLM to generate a response based on the retrieved information
+RAGtoolkit is a guide to building Retrieval-Augmented Generation (RAG) applications. It offers a collection of tools, libraries, and frameworks for RAG systems, with explanations of key components and recommendations for effective implementation.
 
 ### RAG Architecture Diagram
 
@@ -38,17 +19,17 @@ The RAG process typically involves the following steps:
 
 | Component | Description |
 |-----------|-------------|
-| [<img src="https://img.shields.io/badge/-Document%20Ingestor-orange?style=flat-square&logo=database" alt="Document Ingestor" /> Document Ingestor](#document-ingestor) | Tools for ingesting and processing raw documents. Document loaders, parsers, and preprocessing tools |
-| [<img src="https://img.shields.io/badge/-RAG%20Framework-blue?style=flat-square&logo=framework" alt="RAG Framework" /> RAG Framework](#rag-framework) | End-to-end frameworks for building RAG applications. Unified solutions for RAG implementation |
-| [<img src="https://img.shields.io/badge/-Vector%20Database-green?style=flat-square&logo=database" alt="Vector Database" /> Vector Database](#vector-database) | Databases optimized for storing and searching vector embeddings. Vector storage, similarity search, and indexing |
-| [<img src="https://img.shields.io/badge/-Document%20Database-yellow?style=flat-square&logo=mongodb" alt="Document Database" /> Document Database](#document-database) | Databases for storing and retrieving text documents. Storage for raw and processed documents |
-| [<img src="https://img.shields.io/badge/-LLM-purple?style=flat-square&logo=openai" alt="LLM" /> LLM](#llm) | Large Language Models for generating responses. LLM providers and frameworks |
-| [<img src="https://img.shields.io/badge/-Embedding-teal?style=flat-square&logo=tensorflow" alt="Embedding" /> Embedding](#embedding) | Models and services for creating text embeddings. Embedding models and APIs |
-| [<img src="https://img.shields.io/badge/-LLM%20Observability-red?style=flat-square&logo=grafana" alt="LLM Observability" /> LLM Observability](#llm-observability) | Tools for monitoring and analyzing LLM performance. Logging, tracing, and analytics |
-| [<img src="https://img.shields.io/badge/-Prompt%20Techniques-pink?style=flat-square&logo=textpattern" alt="Prompt Techniques" /> Prompt Techniques](#prompt-techniques) | Methods for effective prompt engineering. Prompt templates and frameworks |
-| [<img src="https://img.shields.io/badge/-Evaluation-brown?style=flat-square&logo=checklist" alt="Evaluation" /> Evaluation](#evaluation) | Tools for assessing RAG system performance. Metrics and evaluation frameworks |
+| [📄 Document Ingestor](#document-ingestor) | Tools for ingesting and processing raw documents. Document loaders, parsers, and preprocessing tools |
+| [🤖 RAG Framework](#rag-framework) | End-to-end frameworks for building RAG applications. Unified solutions for RAG implementation |
+| [📀 Vector Database](#vector-database) | Databases optimized for storing and searching vector embeddings. Vector storage, similarity search, and indexing |
+| [📚 Document Database](#document-database) | Databases for storing and retrieving text documents. Storage for raw and processed documents |
+| [💻 LLM](#llm) | Large Language Models for generating responses. LLM providers and frameworks |
+| [📝 Embedding](#embedding) | Models and services for creating text embeddings. Embedding models and APIs |
+| [🖥️ LLM Observability](#llm-observability) | Tools for monitoring and analyzing LLM performance. Logging, tracing, and analytics |
+| [📕 Prompt Techniques](#prompt-techniques) | Methods for effective prompt engineering. Prompt templates and frameworks |
+| [🤔 Evaluation](#evaluation) | Tools for assessing RAG system performance. Metrics and evaluation frameworks |
 
-## Document Ingestor
+## 📄 Document Ingestor
 
 Tools and libraries for ingesting various document formats, extracting text, and preparing data for further processing.
 
@@ -56,11 +37,13 @@ Tools and libraries for ingesting various document formats, extracting text, and
 |---------|-------------|------|
 | LangChain Document Loaders | Comprehensive set of document loaders for various file types | [GitHub](https://github.com/langchain-ai/langchain) |
 | Unstructured | Library for pre-processing and extracting content from raw documents | [GitHub](https://github.com/Unstructured-IO/unstructured) |
-| Haystack DocumentStore | Flexible document processing and storage | [GitHub](https://github.com/deepset-ai/haystack) |
+| PyMuPDF | A Python binding for MuPDF, offering fast PDF processing capabilities | [GitHub](https://github.com/pymupdf/PyMuPDF) |
 | PyPDF | Library for reading and manipulating PDF files | [GitHub](https://github.com/py-pdf/pypdf) |
-| BeautifulSoup | Library for web scraping and HTML parsing | [GitHub](https://github.com/wention/BeautifulSoup4) |
+| MegaParse | Versatile parser for text, PDFs, PowerPoint, and Word documents with lossless information extraction | [GitHub](https://github.com/QuivrHQ/MegaParse) |
+| Adobe PDF Extract | A service provided by Adobe for extracting content from PDF documents | [Link](https://developer.adobe.com/document-services/docs/overview/legacy-documentation/pdf-extract-api/quickstarts/python/) |
+| Azure AI Document Intelligence | A service provided by Azure for extracting content including text, tables, images from PDF documents | [Link](https://developer.adobe.com/document-services/docs/overview/legacy-documentation/pdf-extract-api/quickstarts/python/) |
 
-## RAG Framework
+## 🤖 RAG Framework
 
 End-to-end frameworks that provide integrated solutions for building RAG applications.
 
@@ -72,7 +55,7 @@ End-to-end frameworks that provide integrated solutions for building RAG applica
 | RAGAS | Evaluation framework for RAG systems | [GitHub](https://github.com/explodinggradients/ragas) |
 | DSPy | Programming framework for leveraging LLMs with retrieval | [GitHub](https://github.com/stanfordnlp/dspy) |
 
-## Vector Database
+## 📀 Vector Database
 
 Databases optimized for storing and efficiently searching vector embeddings.
 
@@ -85,7 +68,7 @@ Databases optimized for storing and efficiently searching vector embeddings.
 | Chroma | Open-source embedding database designed for RAG applications | [GitHub](https://github.com/chroma-core/chroma) |
 | FAISS | Efficient similarity search library from Facebook AI Research | [GitHub](https://github.com/facebookresearch/faiss) |
 
-## Document Database
+## 📚 Document Database
 
 Databases designed for storing and retrieving text documents.
 
@@ -93,11 +76,9 @@ Databases designed for storing and retrieving text documents.
 |----------|-------------|------|
 | MongoDB | General-purpose document database | [Website](https://www.mongodb.com/) |
 | Elasticsearch | Search and analytics engine that can store documents | [Website](https://www.elastic.co/) |
-| PostgreSQL | Relational database with JSON support | [Website](https://www.postgresql.org/) |
-| Redis | In-memory data structure store with document capabilities | [Website](https://redis.io/) |
-| DynamoDB | NoSQL document database service by AWS | [Website](https://aws.amazon.com/dynamodb/) |
+| LanceDB | Relational database with JSON support | [Website](https://lancedb.com/) |
 
-## LLM
+## 💻 LLM
 
 Large Language Models and platforms for generating responses based on retrieved context.
 
@@ -111,7 +92,7 @@ Large Language Models and platforms for generating responses based on retrieved 
 | Cohere | API access to generative and embedding models | [Website](https://cohere.com/) |
 | Ollama | Run open-source LLMs locally | [GitHub](https://github.com/ollama/ollama) |
 
-## Embedding
+## 📝 Embedding
 
 Models and services for creating vector representations of text.
 
@@ -124,20 +105,22 @@ Models and services for creating vector representations of text.
 | E5 Embeddings | Microsoft's text embeddings | [Hugging Face](https://huggingface.co/intfloat/e5-large-v2) |
 | BGE Embeddings | BAAI general embeddings | [Hugging Face](https://huggingface.co/BAAI/bge-large-en-v1.5) |
 
-## LLM Observability
+## 🖥️ LLM Observability
 
 Tools for monitoring, analyzing, and improving LLM applications.
 
-| Tool | Description | Link |
-|------|-------------|------|
-| LangSmith | Debugging, testing, and monitoring platform for LLM applications | [Website](https://www.langchain.com/langsmith) |
-| Weights & Biases | MLOps platform with LLM tracking | [Website](https://wandb.ai/site) |
-| Phoenix | Open-source observability for LLM applications | [GitHub](https://github.com/Arize-ai/phoenix) |
-| DeepChecks | Validation and testing for LLMs | [Website](https://deepchecks.com/) |
-| Helicone | LLM observability and analytics platform | [Website](https://www.helicone.ai/) |
-| LiteLLM | Standardized API for LLM providers with observability | [GitHub](https://github.com/BerriAI/litellm) |
 
-## Prompt Techniques
+| Tool | Description | Link | 🌟 |
+|------|-------------|------|-------|
+| Langfuse | Open source LLM engineering platform | [GitHub](https://github.com/langfuse/langfuse) | ![GitHub stars](https://img.shields.io/github/stars/langfuse/langfuse) |
+| Helicone | Open source LLM observability platform. One line of code to monitor, evaluate, and experiment | [GitHub](https://github.com/helicone/helicone) | ![GitHub stars](https://img.shields.io/github/stars/helicone/helicone) |
+| Opik/Comet | Debug, evaluate, and monitor LLM applications with tracing, evaluations, and dashboards | [GitHub](https://github.com/comet-ml/opik) | ![GitHub stars](https://img.shields.io/github/stars/comet-ml/opik) |
+| Phoenix/Arize | Open-source observability for LLM applications | [GitHub](https://github.com/Arize-ai/phoenix) | ![GitHub stars](https://img.shields.io/github/stars/Arize-ai/phoenix) |
+| Lunary | The production toolkit for LLMs. Observability, prompt management and evaluations. | [GitHub](https://github.com/lunary-ai/lunary) | ![GitHub stars](https://img.shields.io/github/stars/lunary-ai/lunary) |
+| Openlit | Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground | [GitHub](https://github.com/openlit/openlit) | ![GitHub stars](https://img.shields.io/github/stars/openlit/openlit) |
+| Langtrace | OpenTelemetry-based observability tool for LLM applications with real-time tracing and metrics | [GitHub](https://github.com/Scale3-Labs/langtrace) | ![GitHub stars](https://img.shields.io/github/stars/Scale3-Labs/langtrace) |
+
+## 📕 Prompt Techniques
 
 Methods and frameworks for effective prompt engineering in RAG systems.
 
@@ -150,7 +133,7 @@ Methods and frameworks for effective prompt engineering in RAG systems.
 | DynaPrompt | Dynamic prompt generation | [GitHub](https://github.com/xtheai/dynaprompt) |
 | Prompt Engineering Guide | Comprehensive guide to prompt engineering | [GitHub](https://github.com/dair-ai/Prompt-Engineering-Guide) |
 
-## Evaluation
+## 🤔 Evaluation
 
 Tools and frameworks for assessing and improving RAG system performance.
 
