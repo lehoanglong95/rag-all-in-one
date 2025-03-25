@@ -19,17 +19,16 @@ RAGtoolkit is a guide to building Retrieval-Augmented Generation (RAG) applicati
 
 | Component | Description |
 |-----------|-------------|
-| [📄 Document Ingestor](#document-ingestor) | Tools for ingesting and processing raw documents. Document loaders, parsers, and preprocessing tools |
-| [🤖 RAG Framework](#rag-framework) | End-to-end frameworks for building RAG applications. Unified solutions for RAG implementation |
-| [📀 Vector Database](#vector-database) | Databases optimized for storing and searching vector embeddings. Vector storage, similarity search, and indexing |
-| [📚 Document Database](#document-database) | Databases for storing and retrieving text documents. Storage for raw and processed documents |
+| [📄 Document Ingestor](#document-ingestor-) | Tools for ingesting and processing raw documents. Document loaders, parsers, and preprocessing tools |
+| [🤖 Agent Framework](#agent-framework) | End-to-end frameworks for building RAG applications. Unified solutions for RAG implementation |
+| [📀 Database](#vector-database) | Databases optimized for storing and searching vector embeddings. Vector storage, similarity search, and indexing |
 | [💻 LLM](#llm) | Large Language Models for generating responses. LLM providers and frameworks |
 | [📝 Embedding](#embedding) | Models and services for creating text embeddings. Embedding models and APIs |
 | [🖥️ LLM Observability](#llm-observability) | Tools for monitoring and analyzing LLM performance. Logging, tracing, and analytics |
 | [📕 Prompt Techniques](#prompt-techniques) | Methods for effective prompt engineering. Prompt templates and frameworks |
 | [🤔 Evaluation](#evaluation) | Tools for assessing RAG system performance. Metrics and evaluation frameworks |
 
-## 📄 Document Ingestor ✅
+## Document Ingestor ✅
 
 Tools and libraries for ingesting various document formats, extracting text, and preparing data for further processing.
 
@@ -45,21 +44,23 @@ Tools and libraries for ingesting various document formats, extracting text, and
 | Adobe PDF Extract | A service provided by Adobe for extracting content from PDF documents | [Link](https://developer.adobe.com/document-services/docs/overview/legacy-documentation/pdf-extract-api/quickstarts/python/) |
 | Azure AI Document Intelligence | A service provided by Azure for extracting content including text, tables, images from PDF documents | [Link](https://developer.adobe.com/document-services/docs/overview/legacy-documentation/pdf-extract-api/quickstarts/python/) |
 
-## 🤖 RAG Framework
+## Agent Framework
 
 End-to-end frameworks that provide integrated solutions for building RAG applications.
 
-| Framework | Description | Link |
+| Library | Description | Link |
 |-----------|-------------|------|
 | LangChain | Framework for building applications with LLMs and integrating with various data sources | [GitHub](https://github.com/langchain-ai/langchain) |
 | LlamaIndex | Data framework for building RAG systems with structured data | [GitHub](https://github.com/jerryjliu/llama_index) |
 | Haystack | End-to-end framework for building NLP pipelines | [GitHub](https://github.com/deepset-ai/haystack) |
-| RAGAS | Evaluation framework for RAG systems | [GitHub](https://github.com/explodinggradients/ragas) |
-| DSPy | Programming framework for leveraging LLMs with retrieval | [GitHub](https://github.com/stanfordnlp/dspy) |
+| Pydantic AI | Agent Framework / shim to use Pydantic with LLMs | [GitHub](https://github.com/pydantic/pydantic-ai) |
+| SmolAgents | A barebones library for agents | [GitHub](https://github.com/huggingface/smolagents) |
+| txtai | Open-source embeddings database for semantic search and LLM workflows | [GitHub](https://github.com/neuml/txtai) |
+| OpenAI Agent | A lightweight, powerful framework for multi-agent workflows | [GitHub](https://github.com/openai/openai-agents-python) |
 
-## 📀 Vector Database 
+## Vector Database 
 
-Databases optimized for storing and efficiently searching vector embeddings.
+Databases optimized for storing and efficiently searching vector embeddings/text documents.
 
 | Database | Description | Link |
 |----------|-------------|------|
@@ -69,18 +70,11 @@ Databases optimized for storing and efficiently searching vector embeddings.
 | Qdrant | Vector similarity search engine | [GitHub](https://github.com/qdrant/qdrant) |
 | Chroma | Open-source embedding database designed for RAG applications | [GitHub](https://github.com/chroma-core/chroma) |
 | FAISS | Efficient similarity search library from Facebook AI Research | [GitHub](https://github.com/facebookresearch/faiss) |
-
-## 📚 Document Database
-
-Databases designed for storing and retrieving text documents.
-
-| Database | Description | Link |
-|----------|-------------|------|
 | MongoDB | General-purpose document database | [Website](https://www.mongodb.com/) |
 | Elasticsearch | Search and analytics engine that can store documents | [Website](https://www.elastic.co/) |
 | LanceDB | Relational database with JSON support | [Website](https://lancedb.com/) |
 
-## 💻 LLM
+## LLM
 
 Large Language Models and platforms for generating responses based on retrieved context.
 
@@ -88,13 +82,15 @@ Large Language Models and platforms for generating responses based on retrieved 
 |-----|-------------|------|
 | OpenAI API | Access to GPT models through API | [Website](https://platform.openai.com/) |
 | Claude | Anthropic's Claude series of LLMs | [Website](https://www.anthropic.com/claude) |
-| Hugging Face | Platform for open-source NLP models | [Website](https://huggingface.co/) |
+| Hugging Face LLM Models| Platform for open-source NLP models | [Hugging Face](https://huggingface.co/collections/open-llm-leaderboard/open-llm-leaderboard-best-models-652d6c7965a4619fb5c27a03) |
 | LLaMA | Meta's open-source large language model | [GitHub](https://github.com/facebookresearch/llama) |
 | Mistral | Open-source and commercial models | [Website](https://mistral.ai/) |
 | Cohere | API access to generative and embedding models | [Website](https://cohere.com/) |
+| DeepSeek | Advanced large language models for various applications | [Website](https://www.deepseek.com/) |
+| Qwen | Alibaba Cloud's large language model accessible via API | [Website](https://www.alibabacloud.com/help/en/model-studio/developer-reference/use-qwen-by-calling-api) |
 | Ollama | Run open-source LLMs locally | [GitHub](https://github.com/ollama/ollama) |
 
-## 📝 Embedding
+## Embedding
 
 Models and services for creating vector representations of text.
 
@@ -107,13 +103,13 @@ Models and services for creating vector representations of text.
 | E5 Embeddings | Microsoft's text embeddings | [Hugging Face](https://huggingface.co/intfloat/e5-large-v2) |
 | BGE Embeddings | BAAI general embeddings | [Hugging Face](https://huggingface.co/BAAI/bge-large-en-v1.5) |
 
-## 🖥️ LLM Observability
+## LLM Observability
 
 Tools for monitoring, analyzing, and improving LLM applications.
 
 
-| Tool | Description | Link | 🌟 |
-|------|-------------|------|-------|
+| Library | Description | Link | 🌟                                                                       |
+|------|-------------|------|---------------------------------------------------------------------------|
 | Langfuse | Open source LLM engineering platform | [GitHub](https://github.com/langfuse/langfuse) | ![GitHub stars](https://img.shields.io/github/stars/langfuse/langfuse) |
 | Helicone | Open source LLM observability platform. One line of code to monitor, evaluate, and experiment | [GitHub](https://github.com/helicone/helicone) | ![GitHub stars](https://img.shields.io/github/stars/helicone/helicone) |
 | Opik/Comet | Debug, evaluate, and monitor LLM applications with tracing, evaluations, and dashboards | [GitHub](https://github.com/comet-ml/opik) | ![GitHub stars](https://img.shields.io/github/stars/comet-ml/opik) |
@@ -122,28 +118,47 @@ Tools for monitoring, analyzing, and improving LLM applications.
 | Openlit | Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground | [GitHub](https://github.com/openlit/openlit) | ![GitHub stars](https://img.shields.io/github/stars/openlit/openlit) |
 | Langtrace | OpenTelemetry-based observability tool for LLM applications with real-time tracing and metrics | [GitHub](https://github.com/Scale3-Labs/langtrace) | ![GitHub stars](https://img.shields.io/github/stars/Scale3-Labs/langtrace) |
 
-## 📕 Prompt Techniques
+## Prompt Techniques
 
 Methods and frameworks for effective prompt engineering in RAG systems.
 
-| Technique/Library | Description | Link |
-|-------------------|-------------|------|
-| LangChain Prompts | Templates and composition tools for prompts | [Documentation](https://python.langchain.com/docs/modules/model_io/prompts/) |
-| Guidance | Language for controlling LLMs | [GitHub](https://github.com/guidance-ai/guidance) |
-| PROMPTIFY | Create, test and deploy prompts | [GitHub](https://github.com/promptslab/promptify) |
-| PromptPerfect | Tool for optimizing prompts | [Website](https://promptperfect.jina.ai/) |
-| DynaPrompt | Dynamic prompt generation | [GitHub](https://github.com/xtheai/dynaprompt) |
-| Prompt Engineering Guide | Comprehensive guide to prompt engineering | [GitHub](https://github.com/dair-ai/Prompt-Engineering-Guide) |
+### Open Source Prompt Engineering Tools
 
-## 🤔 Evaluation
+| Library | Description | Link | 🌟 |
+|------|-------------|------|-------|
+| Prompt Engineering Guide | Comprehensive guide to prompt engineering | [GitHub](https://github.com/dair-ai/Prompt-Engineering-Guide) | ![GitHub stars](https://img.shields.io/github/stars/dair-ai/Prompt-Engineering-Guide) |
+| DSPy | Framework for programming language models instead of prompting | [GitHub](https://github.com/stanfordnlp/dspy) | ![GitHub stars](https://img.shields.io/github/stars/stanfordnlp/dspy) |
+| Guidance | Language for controlling LLMs | [GitHub](https://github.com/guidance-ai/guidance) | ![GitHub stars](https://img.shields.io/github/stars/guidance-ai/guidance) |
+| LLMLingua | Prompt compression library for faster LLM inference | [GitHub](https://github.com/microsoft/LLMLingua) | ![GitHub stars](https://img.shields.io/github/stars/microsoft/LLMLingua) |
+| Promptify | NLP task prompt generator for GPT, PaLM and other models | [GitHub](https://github.com/promptslab/Promptify) | ![GitHub stars](https://img.shields.io/github/stars/promptslab/Promptify) |
+| PromptSource | Toolkit for creating and sharing natural language prompts | [GitHub](https://github.com/bigscience-workshop/promptsource) | ![GitHub stars](https://img.shields.io/github/stars/bigscience-workshop/promptsource) |
+| Promptimizer | Library for optimizing prompts | [GitHub](https://github.com/hinthornw/promptimizer) | ![GitHub stars](https://img.shields.io/github/stars/hinthornw/promptimizer) |
+| Selective Context | Context compression tool for doubling LLM content processing | [GitHub](https://github.com/liyucheng09/Selective_Context) | ![GitHub stars](https://img.shields.io/github/stars/liyucheng09/Selective_Context) |
+| betterprompt | Testing suite for LLM prompts before production | [GitHub](https://github.com/stjordanis/betterprompt) | ![GitHub stars](https://img.shields.io/github/stars/stjordanis/betterprompt) |
+
+### Documentation & Services
+
+| Resource | Description | Link |
+|----------|-------------|------|
+| OpenAI Prompt Engineering | Official guide to prompt engineering from OpenAI | [Link](https://platform.openai.com/docs/guides/prompt-engineering) |
+| LangChain Prompts | Templates and composition tools for prompts | [Link](https://python.langchain.com/docs/how_to/) |
+| PromptPerfect | Tool for optimizing prompts | [Link](https://promptperfect.jina.ai/) |
+
+## Evaluation
 
 Tools and frameworks for assessing and improving RAG system performance.
 
-| Tool | Description | Link |
-|------|-------------|------|
-| RAGAS | Evaluation framework specifically for RAG systems | [GitHub](https://github.com/explodinggradients/ragas) |
-| TruLens | Open-source package for LLM evaluation with RAG-specific metrics | [GitHub](https://github.com/truera/trulens) |
-| DeepEval | Evaluation library for LLM applications | [GitHub](https://github.com/confident-ai/deepeval) |
-| OpenAI Evals | Framework for evaluating LLMs | [GitHub](https://github.com/openai/evals) |
-| LangSmith Evaluators | Evaluation tools integrated with LangChain | [Documentation](https://docs.smith.langchain.com/evaluation) |
-| Promptfoo | Open-source tool for testing and evaluating prompts | [GitHub](https://github.com/promptfoo/promptfoo) | 
+| Tool | Description | Link | 🌟 |
+|------|-------------|------|-------|
+| FastChat | Open platform for training, serving, and evaluating LLM-based chatbots | [Github](https://github.com/lm-sys/fastchat) | ![GitHub stars](https://img.shields.io/github/stars/lm-sys/fastchat) |
+| OpenAI Evals | Framework for evaluating LLMs and LLM systems | [GitHub](https://github.com/openai/evals) | ![GitHub stars](https://img.shields.io/github/stars/openai/evals) |
+| RAGAS | Ultimate toolkit for evaluating and optimizing RAG systems | [GitHub](https://github.com/explodinggradients/ragas) | ![GitHub stars](https://img.shields.io/github/stars/explodinggradients/ragas) |
+| Promptfoo | Open-source tool for testing and evaluating prompts | [GitHub](https://github.com/promptfoo/promptfoo) | ![GitHub stars](https://img.shields.io/github/stars/promptfoo/promptfoo) |
+| DeepEval | Comprehensive evaluation library for LLM applications | [GitHub](https://github.com/confident-ai/deepeval) | ![GitHub stars](https://img.shields.io/github/stars/confident-ai/deepeval) |
+| Giskard | Open-source evaluation and testing for ML & LLM systems | [Github](https://github.com/giskard-ai/giskard) | ![GitHub stars](https://img.shields.io/github/stars/giskard-ai/giskard) |
+| PromptBench | Unified evaluation framework for large language models | [Github](https://github.com/microsoft/promptbench) | ![GitHub stars](https://img.shields.io/github/stars/microsoft/promptbench) |
+| TruLens | Evaluation and tracking for LLM experiments with RAG-specific metrics | [GitHub](https://github.com/truera/trulens) | ![GitHub stars](https://img.shields.io/github/stars/truera/trulens) |
+| EvalPlus | Rigorous evaluation framework for LLM4Code | [Github](https://github.com/evalplus/evalplus) | ![GitHub stars](https://img.shields.io/github/stars/evalplus/evalplus) |
+| LightEval | All-in-one toolkit for evaluating LLMs | [Github](https://github.com/huggingface/lighteval) | ![GitHub stars](https://img.shields.io/github/stars/huggingface/lighteval) |
+| LangTest | Test suite for comparing LLM models on accuracy, bias, fairness and robustness | [Github](https://github.com/JohnSnowLabs/langtest) | ![GitHub stars](https://img.shields.io/github/stars/JohnSnowLabs/langtest) |
+| AgentEvals | Evaluators and utilities for measuring agent performance | [Github](https://github.com/langchain-ai/agentevals) | ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/agentevals) |
