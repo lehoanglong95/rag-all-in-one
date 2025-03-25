@@ -15,7 +15,7 @@ RAGtoolkit is a guide to building Retrieval-Augmented Generation (RAG) applicati
 
 ![RAG Architecture](RAG%20Diagram.png)
 
-## RAG Components
+## RAG Components ✅
 
 | Component | Description |
 |-----------|-------------|
@@ -29,16 +29,18 @@ RAGtoolkit is a guide to building Retrieval-Augmented Generation (RAG) applicati
 | [📕 Prompt Techniques](#prompt-techniques) | Methods for effective prompt engineering. Prompt templates and frameworks |
 | [🤔 Evaluation](#evaluation) | Tools for assessing RAG system performance. Metrics and evaluation frameworks |
 
-## 📄 Document Ingestor
+## 📄 Document Ingestor ✅
 
 Tools and libraries for ingesting various document formats, extracting text, and preparing data for further processing.
 
 | Library | Description | Link |
 |---------|-------------|------|
-| LangChain Document Loaders | Comprehensive set of document loaders for various file types | [GitHub](https://github.com/langchain-ai/langchain) |
 | Unstructured | Library for pre-processing and extracting content from raw documents | [GitHub](https://github.com/Unstructured-IO/unstructured) |
+| Docling | Document processing tool that parses diverse formats with advanced PDF understanding and AI integrations | [GitHub](https://github.com/docling-project/docling) |
 | PyMuPDF | A Python binding for MuPDF, offering fast PDF processing capabilities | [GitHub](https://github.com/pymupdf/PyMuPDF) |
 | PyPDF | Library for reading and manipulating PDF files | [GitHub](https://github.com/py-pdf/pypdf) |
+| PyPDF | Library for reading and manipulating PDF files | [GitHub](https://github.com/py-pdf/pypdf) |
+| LangChain Document Loaders | Comprehensive set of document loaders for various file types | [GitHub](https://github.com/langchain-ai/langchain) |
 | MegaParse | Versatile parser for text, PDFs, PowerPoint, and Word documents with lossless information extraction | [GitHub](https://github.com/QuivrHQ/MegaParse) |
 | Adobe PDF Extract | A service provided by Adobe for extracting content from PDF documents | [Link](https://developer.adobe.com/document-services/docs/overview/legacy-documentation/pdf-extract-api/quickstarts/python/) |
 | Azure AI Document Intelligence | A service provided by Azure for extracting content including text, tables, images from PDF documents | [Link](https://developer.adobe.com/document-services/docs/overview/legacy-documentation/pdf-extract-api/quickstarts/python/) |
@@ -55,7 +57,7 @@ End-to-end frameworks that provide integrated solutions for building RAG applica
 | RAGAS | Evaluation framework for RAG systems | [GitHub](https://github.com/explodinggradients/ragas) |
 | DSPy | Programming framework for leveraging LLMs with retrieval | [GitHub](https://github.com/stanfordnlp/dspy) |
 
-## 📀 Vector Database
+## 📀 Vector Database 
 
 Databases optimized for storing and efficiently searching vector embeddings.
 
