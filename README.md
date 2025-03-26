@@ -154,7 +154,7 @@ Methods and frameworks for effective prompt engineering in RAG systems.
 
 Tools and frameworks for assessing and improving RAG system performance.
 
-| Tool | Description | Link | Github Stars 🌟 |
+| Library | Description | Link | Github Stars 🌟 |
 |------|-------------|------|-------|
 | FastChat | Open platform for training, serving, and evaluating LLM-based chatbots | [Github](https://github.com/lm-sys/fastchat) | ![GitHub stars](https://img.shields.io/github/stars/lm-sys/fastchat) |
 | OpenAI Evals | Framework for evaluating LLMs and LLM systems | [GitHub](https://github.com/openai/evals) | ![GitHub stars](https://img.shields.io/github/stars/openai/evals) |
