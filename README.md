@@ -33,7 +33,8 @@ RAG All-in-one is a guide to building Retrieval-Augmented Generation (RAG) appli
 | [🖥️ LLM Observability](#llm-observability) | Tools for monitoring and analyzing LLM performance. Logging, tracing, and analytics |
 | [📕 Prompt Techniques](#prompt-techniques) | Methods for effective prompt engineering. Prompt templates and frameworks |
 | [🤔 Evaluation](#evaluation) | Tools for assessing RAG system performance. Metrics and evaluation frameworks |
-| [🖌️ User Interface](#user-interface) | Tools for building interactive AI interfaces. UI frameworks for RAG applications |
+| [📺 User Interface](#user-interface) | Tools for building interactive AI interfaces. UI frameworks for RAG applications |
+| [🚀 Complete RAG Applications](#complete-rag-applications) | Ready-to-use, comprehensive RAG systems that integrate various components of the RAG stack |
 
 ## Document Ingestor
 
@@ -180,3 +181,14 @@ Tools and frameworks for building interactive user interfaces for RAG applicatio
 | Gradio | Build and share user interfaces for machine learning models | [GitHub](https://github.com/gradio-app/gradio) | ![GitHub stars](https://img.shields.io/github/stars/gradio-app/gradio) |
 | Chainlit | Build Python LLM apps with minimal effort | [GitHub](https://github.com/Chainlit/chainlit) | ![GitHub stars](https://img.shields.io/github/stars/Chainlit/chainlit) |
 | SimpleAIChat | Lightweight Python package for creating AI chat interfaces | [GitHub](https://github.com/minimaxir/simpleaichat) | ![GitHub stars](https://img.shields.io/github/stars/minimaxir/simpleaichat) |
+
+## Complete RAG Applications
+
+Ready-to-use, comprehensive RAG applications that integrate various components of the RAG stack.
+
+| Application | Description | Link | GitHub Stars 🌟 |
+|-------------|-------------|------|-------------|
+| RAGFlow | Open-source RAG engine based on deep document understanding for truthful question-answering with citations | [GitHub](https://github.com/infiniflow/ragflow) | ![GitHub stars](https://img.shields.io/github/stars/infiniflow/ragflow) |
+| AnythingLLM | All-in-one Desktop & Docker AI application with built-in RAG, AI agents, and a no-code agent builder | [GitHub](https://github.com/Mintplex-Labs/anything-llm) | ![GitHub stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm) |
+| Kotaemon | Clean & customizable RAG UI for chatting with documents, built for both end users and developers | [GitHub](https://github.com/Cinnamon/kotaemon) | ![GitHub stars](https://img.shields.io/github/stars/Cinnamon/kotaemon) |
+| Verba | Fully-customizable personal assistant utilizing RAG for querying and interacting with your data, powered by Weaviate | [GitHub](https://github.com/weaviate/Verba) | ![GitHub stars](https://img.shields.io/github/stars/weaviate/Verba) |
