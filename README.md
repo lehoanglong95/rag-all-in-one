@@ -40,8 +40,8 @@ Tools and libraries for ingesting various document formats, extracting text, and
 
 | Library | Description | Link | GitHub Stars 🌟 |
 |---------|-------------|------|-------------|
-| LangChain Document Loaders | Comprehensive set of document loaders for various file types | [GitHub](https://github.com/langchain-ai/langchain) | ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain) |
-| LlamaIndex Parser | Flexible document parsing and chunking capabilities for various file formats | [GitHub](https://github.com/jerryjliu/llama_index) | ![GitHub stars](https://img.shields.io/github/stars/jerryjliu/llama_index) |
+| LangChain Document Loaders | Comprehensive set of document loaders for various file types | [GitHub](https://github.com/langchain-ai/langchain/tree/master/libs/community/langchain_community/document_loaders) | ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain) |
+| LlamaIndex Reader | Flexible document parsing and chunking capabilities for various file formats | [GitHub](https://github.com/run-llama/llama_index/tree/main/llama-index-integrations/readers) | ![GitHub stars](https://img.shields.io/github/stars/jerryjliu/llama_index) |
 | Docling | Document processing tool that parses diverse formats with advanced PDF understanding and AI integrations | [GitHub](https://github.com/docling-project/docling) | ![GitHub stars](https://img.shields.io/github/stars/docling-project/docling) |
 | Unstructured | Library for pre-processing and extracting content from raw documents | [GitHub](https://github.com/Unstructured-IO/unstructured) | ![GitHub stars](https://img.shields.io/github/stars/Unstructured-IO/unstructured) |
 | PyPDF | Library for reading and manipulating PDF files | [GitHub](https://github.com/py-pdf/pypdf) | ![GitHub stars](https://img.shields.io/github/stars/py-pdf/pypdf) |
