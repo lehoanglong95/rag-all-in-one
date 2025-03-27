@@ -21,7 +21,7 @@ RAG All-in-one is a guide to building Retrieval-Augmented Generation (RAG) appli
 
 ![RAG Architecture](RAG%20Diagram.png)
 
-## RAG Components ✅
+## RAG Components
 
 | Component | Description |
 |-----------|-------------|
@@ -33,6 +33,7 @@ RAG All-in-one is a guide to building Retrieval-Augmented Generation (RAG) appli
 | [🖥️ LLM Observability](#llm-observability) | Tools for monitoring and analyzing LLM performance. Logging, tracing, and analytics |
 | [📕 Prompt Techniques](#prompt-techniques) | Methods for effective prompt engineering. Prompt templates and frameworks |
 | [🤔 Evaluation](#evaluation) | Tools for assessing RAG system performance. Metrics and evaluation frameworks |
+| [🖌️ User Interface](#user-interface) | Tools for building interactive AI interfaces. UI frameworks for RAG applications |
 
 ## Document Ingestor
 
@@ -168,3 +169,14 @@ Tools and frameworks for assessing and improving RAG system performance.
 | LightEval | All-in-one toolkit for evaluating LLMs | [GitHub](https://github.com/huggingface/lighteval) | ![GitHub stars](https://img.shields.io/github/stars/huggingface/lighteval) |
 | LangTest | Test suite for comparing LLM models on accuracy, bias, fairness and robustness | [GitHub](https://github.com/JohnSnowLabs/langtest) | ![GitHub stars](https://img.shields.io/github/stars/JohnSnowLabs/langtest) |
 | AgentEvals | Evaluators and utilities for measuring agent performance | [GitHub](https://github.com/langchain-ai/agentevals) | ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/agentevals) |
+
+## User Interface
+
+Tools and frameworks for building interactive user interfaces for RAG applications.
+
+| Library | Description | Link | GitHub Stars 🌟 |
+|------|-------------|------|-------|
+| Streamlit | Turn data scripts into shareable web apps in minutes | [GitHub](https://github.com/streamlit/streamlit) | ![GitHub stars](https://img.shields.io/github/stars/streamlit/streamlit) |
+| Gradio | Build and share user interfaces for machine learning models | [GitHub](https://github.com/gradio-app/gradio) | ![GitHub stars](https://img.shields.io/github/stars/gradio-app/gradio) |
+| Chainlit | Build Python LLM apps with minimal effort | [GitHub](https://github.com/Chainlit/chainlit) | ![GitHub stars](https://img.shields.io/github/stars/Chainlit/chainlit) |
+| SimpleAIChat | Lightweight Python package for creating AI chat interfaces | [GitHub](https://github.com/minimaxir/simpleaichat) | ![GitHub stars](https://img.shields.io/github/stars/minimaxir/simpleaichat) |
