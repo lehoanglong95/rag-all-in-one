@@ -43,7 +43,7 @@ Tools and libraries for ingesting various document formats, extracting text, and
 | LangChain Document Loaders | Comprehensive set of document loaders for various file types | [GitHub](https://github.com/langchain-ai/langchain) | ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain) |
 | LlamaIndex Parser | Flexible document parsing and chunking capabilities for various file formats | [GitHub](https://github.com/jerryjliu/llama_index) | ![GitHub stars](https://img.shields.io/github/stars/jerryjliu/llama_index) |
 | Docling | Document processing tool that parses diverse formats with advanced PDF understanding and AI integrations | [GitHub](https://github.com/docling-project/docling) | ![GitHub stars](https://img.shields.io/github/stars/docling-project/docling) |
-| Unstructured | Library for pre-processing and extracting content from raw documents | [Github](https://github.com/Unstructured-IO/unstructured) | ![GitHub stars](https://img.shields.io/github/stars/Unstructured-IO/unstructured) |
+| Unstructured | Library for pre-processing and extracting content from raw documents | [GitHub](https://github.com/Unstructured-IO/unstructured) | ![GitHub stars](https://img.shields.io/github/stars/Unstructured-IO/unstructured) |
 | PyPDF | Library for reading and manipulating PDF files | [GitHub](https://github.com/py-pdf/pypdf) | ![GitHub stars](https://img.shields.io/github/stars/py-pdf/pypdf) |
 | PyMuPDF | A Python binding for MuPDF, offering fast PDF processing capabilities | [GitHub](https://github.com/pymupdf/PyMuPDF) | ![GitHub stars](https://img.shields.io/github/stars/pymupdf/PyMuPDF) |
 | MegaParse | Versatile parser for text, PDFs, PowerPoint, and Word documents with lossless information extraction | [GitHub](https://github.com/QuivrHQ/MegaParse) | ![GitHub stars](https://img.shields.io/github/stars/QuivrHQ/MegaParse) |
@@ -154,17 +154,17 @@ Methods and frameworks for effective prompt engineering in RAG systems.
 
 Tools and frameworks for assessing and improving RAG system performance.
 
-| Library | Description | Link | Github Stars 🌟 |
+| Library | Description | Link | GitHub Stars 🌟 |
 |------|-------------|------|-------|
-| FastChat | Open platform for training, serving, and evaluating LLM-based chatbots | [Github](https://github.com/lm-sys/fastchat) | ![GitHub stars](https://img.shields.io/github/stars/lm-sys/fastchat) |
+| FastChat | Open platform for training, serving, and evaluating LLM-based chatbots | [GitHub](https://github.com/lm-sys/fastchat) | ![GitHub stars](https://img.shields.io/github/stars/lm-sys/fastchat) |
 | OpenAI Evals | Framework for evaluating LLMs and LLM systems | [GitHub](https://github.com/openai/evals) | ![GitHub stars](https://img.shields.io/github/stars/openai/evals) |
 | RAGAS | Ultimate toolkit for evaluating and optimizing RAG systems | [GitHub](https://github.com/explodinggradients/ragas) | ![GitHub stars](https://img.shields.io/github/stars/explodinggradients/ragas) |
 | Promptfoo | Open-source tool for testing and evaluating prompts | [GitHub](https://github.com/promptfoo/promptfoo) | ![GitHub stars](https://img.shields.io/github/stars/promptfoo/promptfoo) |
 | DeepEval | Comprehensive evaluation library for LLM applications | [GitHub](https://github.com/confident-ai/deepeval) | ![GitHub stars](https://img.shields.io/github/stars/confident-ai/deepeval) |
-| Giskard | Open-source evaluation and testing for ML & LLM systems | [Github](https://github.com/giskard-ai/giskard) | ![GitHub stars](https://img.shields.io/github/stars/giskard-ai/giskard) |
-| PromptBench | Unified evaluation framework for large language models | [Github](https://github.com/microsoft/promptbench) | ![GitHub stars](https://img.shields.io/github/stars/microsoft/promptbench) |
+| Giskard | Open-source evaluation and testing for ML & LLM systems | [GitHub](https://github.com/giskard-ai/giskard) | ![GitHub stars](https://img.shields.io/github/stars/giskard-ai/giskard) |
+| PromptBench | Unified evaluation framework for large language models | [GitHub](https://github.com/microsoft/promptbench) | ![GitHub stars](https://img.shields.io/github/stars/microsoft/promptbench) |
 | TruLens | Evaluation and tracking for LLM experiments with RAG-specific metrics | [GitHub](https://github.com/truera/trulens) | ![GitHub stars](https://img.shields.io/github/stars/truera/trulens) |
-| EvalPlus | Rigorous evaluation framework for LLM4Code | [Github](https://github.com/evalplus/evalplus) | ![GitHub stars](https://img.shields.io/github/stars/evalplus/evalplus) |
-| LightEval | All-in-one toolkit for evaluating LLMs | [Github](https://github.com/huggingface/lighteval) | ![GitHub stars](https://img.shields.io/github/stars/huggingface/lighteval) |
-| LangTest | Test suite for comparing LLM models on accuracy, bias, fairness and robustness | [Github](https://github.com/JohnSnowLabs/langtest) | ![GitHub stars](https://img.shields.io/github/stars/JohnSnowLabs/langtest) |
-| AgentEvals | Evaluators and utilities for measuring agent performance | [Github](https://github.com/langchain-ai/agentevals) | ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/agentevals) |
+| EvalPlus | Rigorous evaluation framework for LLM4Code | [GitHub](https://github.com/evalplus/evalplus) | ![GitHub stars](https://img.shields.io/github/stars/evalplus/evalplus) |
+| LightEval | All-in-one toolkit for evaluating LLMs | [GitHub](https://github.com/huggingface/lighteval) | ![GitHub stars](https://img.shields.io/github/stars/huggingface/lighteval) |
+| LangTest | Test suite for comparing LLM models on accuracy, bias, fairness and robustness | [GitHub](https://github.com/JohnSnowLabs/langtest) | ![GitHub stars](https://img.shields.io/github/stars/JohnSnowLabs/langtest) |
+| AgentEvals | Evaluators and utilities for measuring agent performance | [GitHub](https://github.com/langchain-ai/agentevals) | ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/agentevals) |
