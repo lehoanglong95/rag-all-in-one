@@ -15,7 +15,7 @@ Feel free to connect with me on social media to discuss AI, machine learning, or
 
 ## Introduction
 
-RAG All-in-one is a guide to building Retrieval-Augmented Generation (RAG) applications. It offers a collection of tools, libraries, and frameworks for RAG systems, with explanations of key components and recommendations for effective implementation.
+RAG All-in-one is a guide to building Retrieval-Augmented Generation (RAG) applications. It offers a comprehensive collection of tools, libraries, and frameworks for RAG systems, organized by key components of the RAG architecture. This resource serves as a centralized directory to help you discover the most relevant technologies for each part of your RAG pipeline.
 
 ### RAG Architecture Diagram
 
