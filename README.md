@@ -78,6 +78,7 @@ Databases optimized for storing and efficiently searching vector embeddings/text
 | Chroma | Open-source embedding database designed for RAG applications | [GitHub](https://github.com/chroma-core/chroma) | ![GitHub stars](https://img.shields.io/github/stars/chroma-core/chroma) |
 | Weaviate | Open-source vector search engine | [GitHub](https://github.com/weaviate/weaviate) | ![GitHub stars](https://img.shields.io/github/stars/weaviate/weaviate) |
 | LanceDB | Developer-friendly, embedded retrieval engine for multimodal AI | [GitHub](https://github.com/lancedb/lancedb) | ![GitHub stars](https://img.shields.io/github/stars/lancedb/lancedb) |
+| pgvector | Open-source vector similarity search for Postgres | [GitHub](https://github.com/pgvector/pgvector) | ![GitHub stars](https://img.shields.io/github/stars/pgvector/pgvector) |
 | Pinecone | Managed vector database for semantic search | [Link](https://www.pinecone.io/) |  |
 | MongoDB | General-purpose document database | [Link](https://www.mongodb.com/) |  |
 | Elasticsearch | Search and analytics engine that can store documents | [Link](https://www.elastic.co/) |  |
