@@ -25,6 +25,7 @@ RAG All-in-one is a guide to building Retrieval-Augmented Generation (RAG) appli
 
 | Component | Description |
 |-----------|-------------|
+| [📚 Courses and Learning Materials](#courses-and-learning-materials) | Comprehensive courses and learning resources for mastering RAG systems |
 | [📄 Document Ingestor](#document-ingestor) | Tools for ingesting and processing raw documents. Document loaders, parsers, and preprocessing tools |
 | [🤖 Agent Framework](#agent-framework) | End-to-end frameworks for building RAG applications. Unified solutions for RAG implementation |
 | [📀 Database](#vector-database) | Databases optimized for storing and searching vector embeddings. Vector storage, similarity search, and indexing |
@@ -192,3 +193,22 @@ Ready-to-use, comprehensive RAG applications that integrate various components o
 | AnythingLLM | All-in-one Desktop & Docker AI application with built-in RAG, AI agents, and a no-code agent builder | [GitHub](https://github.com/Mintplex-Labs/anything-llm) | ![GitHub stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm) |
 | Kotaemon | Clean & customizable RAG UI for chatting with documents, built for both end users and developers | [GitHub](https://github.com/Cinnamon/kotaemon) | ![GitHub stars](https://img.shields.io/github/stars/Cinnamon/kotaemon) |
 | Verba | Fully-customizable personal assistant utilizing RAG for querying and interacting with your data, powered by Weaviate | [GitHub](https://github.com/weaviate/Verba) | ![GitHub stars](https://img.shields.io/github/stars/weaviate/Verba) |
+
+## Courses and Learning Materials
+
+Comprehensive courses and learning resources for mastering RAG systems.
+
+| Course Name | Platform | Description | Link | Level |
+|-------------|----------|-------------|------|-------|
+| Building and Evaluating Advanced RAG Applications | ![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-FF6B00?style=flat-square&logo=deeplearning.ai&logoColor=white) | Advanced retrieval methods, sentence-window retrieval, auto-merging retrieval, and evaluation metrics | [Link](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/) | Beginner |
+| Learn RAG with LLMWare | ![Udemy](https://img.shields.io/badge/Udemy-EC5252?style=flat-square&logo=udemy&logoColor=white) | Fundamentals of RAG, parsing, embeddings, prompting, and semantic querying | [Link](https://www.udemy.com/course/learn-rag-with-llmware-2024/) | Beginner to Intermediate |
+| Learn AI Skills: RAG Course | ![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white) | Basics to end-to-end RAG system creation with code examples | [Link](https://www.youtube.com/watch?v=cYRcdsqFAmY&t=5s) | Beginner to Advanced |
+| Building Multimodal Search and RAG | ![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-FF6B00?style=flat-square&logo=deeplearning.ai&logoColor=white) | Multimodal RAG systems using contrastive learning for images, audio, video alongside text data | [Link](https://www.deeplearning.ai/short-courses/building-multimodal-search-and-rag/) | Intermediate |
+| AI Enhancement with Knowledge Graphs - Mastering RAG Systems | ![Coursera](https://img.shields.io/badge/Coursera-0056D2?style=flat-square&logo=coursera&logoColor=white) | Integrating Knowledge Graphs with RAG systems for improved contextual understanding | [Link](https://www.coursera.org/learn/packt-ai-enhancement-with-knowledge-graphs-mastering-rag-systems-lnmqm) | Intermediate |
+| Introduction to RAG | ![Coursera](https://img.shields.io/badge/Coursera-0056D2?style=flat-square&logo=coursera&logoColor=white) | Building an end-to-end RAG system with Pandas, SentenceTransformers, Qdrant, and LLMs | [Link](https://www.coursera.org/projects/introduction-to-rag) | Intermediate |
+| Retrieval Augmented Generation (RAG) with LangChain | ![DataCamp](https://img.shields.io/badge/DataCamp-03EF62?style=flat-square&logo=datacamp&logoColor=white) | Using LangChain for integrating external data into LLMs, text splitting, embeddings | [Link](https://www.datacamp.com/courses/retrieval-augmented-generation-rag-with-langchain) | Intermediate |
+| Retrieval Augmented Generation (RAG) for Developers | ![Pluralsight](https://img.shields.io/badge/Pluralsight-F15B2D?style=flat-square&logo=pluralsight&logoColor=white) | Modular RAGs, optimizing retrieval techniques, relevance ranking | [Link](https://www.pluralsight.com/paths/retrieval-augmented-generation-rag-for-developers) | Intermediate |
+| Retrieval Augmented Generation LlamaIndex & LangChain Course | ![Activeloop](https://img.shields.io/badge/Activeloop-1E88E5?style=flat-square&logo=activeloop&logoColor=white) | Production-oriented RAG systems using LlamaIndex and Deep Lake | [Link](https://learn.activeloop.ai/courses/rag) | Intermediate to Advanced |
+| The RAG Bootcamp | ![Zero to Mastery](https://img.shields.io/badge/Zero_to_Mastery-1E88E5?style=flat-square&logo=zerotomastery&logoColor=white) | Retrieval systems, multimodal RAG applications, and hands-on projects | [Link](https://zerotomastery.io/courses/ai-engineer-bootcamp-retrieval-augmented-generation/) | Intermediate to Advanced |
+| AI: Advanced RAG | ![edX](https://img.shields.io/badge/edX-02262B?style=flat-square&logo=edx&logoColor=white) | Enterprise-grade RAG techniques, embedding strategies, document processing | [Link](https://www.edx.org/learn/computer-science/pragmatic-ai-labs-advanced-rag?index=product&queryID=67699afa89a44a42e3aec1413f0152ed&position=1&results_level=first-level-results&term=AI%3A+Advanced+RAG%09&objectID=course-69f4b8db-8a82-4439-87a2-7f5b1fe5334b&campaign=Advanced+RAG) | Advanced |
+| Advanced Retrieval-Augmented Generation (RAG) for Large Language Models | ![FutureLearn](https://img.shields.io/badge/FutureLearn-DE00A5?style=flat-square&logo=futurelearn&logoColor=white) | Advanced embedding strategies, hybrid search systems, sparse indexing | [Link](https://www.futurelearn.com/courses/rag-for-large-language-models) | Advanced |
