@@ -27,6 +27,7 @@ RAG All-in-one is a guide to building Retrieval-Augmented Generation (RAG) appli
 |-----------|-------------|
 | [📚 Courses and Learning Materials](#courses-and-learning-materials) | Comprehensive courses and learning resources for mastering RAG systems |
 | [📄 Document Ingestor](#document-ingestor) | Tools for ingesting and processing raw documents. Document loaders, parsers, and preprocessing tools |
+| [✂️ Chunking Techniques](#chunking-techniques) | Methods and tools for breaking down documents into manageable pieces for processing and retrieval |
 | [🤖 Agent Framework](#agent-framework) | End-to-end frameworks for building RAG applications. Unified solutions for RAG implementation |
 | [📀 Database](#vector-database) | Databases optimized for storing and searching vector embeddings. Vector storage, similarity search, and indexing |
 | [💻 LLM](#llm) | Large Language Models for generating responses. LLM providers and frameworks |
@@ -71,6 +72,18 @@ Tools and libraries for ingesting various document formats, extracting text, and
 | MegaParse | Versatile parser for text, PDFs, PowerPoint, and Word documents with lossless information extraction | [GitHub](https://github.com/QuivrHQ/MegaParse) | ![GitHub stars](https://img.shields.io/github/stars/QuivrHQ/MegaParse) |
 | Adobe PDF Extract | A service provided by Adobe for extracting content from PDF documents | [Link](https://developer.adobe.com/document-services/docs/overview/legacy-documentation/pdf-extract-api/quickstarts/python/) |  |
 | Azure AI Document Intelligence | A service provided by Azure for extracting content including text, tables, images from PDF documents | [Link](https://developer.adobe.com/document-services/docs/overview/legacy-documentation/pdf-extract-api/quickstarts/python/) |  |
+
+## Chunking Techniques
+
+Methods and tools for breaking down documents into manageable pieces for processing and retrieval.
+
+| Technique | Description | Link | Code Example |
+|-----------|-------------|----------|--------------|
+| Fixed Size Chunking | Splits text into chunks of specified character length. Simple and computationally efficient. Key concepts: chunk size, overlap, separator. | [Link](https://www.youtube.com/watch?v=8OJC21T2SL4&t=450s) | [Code Example](https://docs.llamaindex.ai/en/stable/api_reference/node_parsers/sentence_splitter/) |
+| Recursive Chunking | Hierarchically divides text using multiple separators in sequence. Respects text structure by recursively applying different separators. | [Link](https://www.youtube.com/watch?v=8OJC21T2SL4&t=966s) | [Code Example](https://python.langchain.com/v0.1/docs/modules/data_connection/document_transformers/recursive_text_splitter/) |
+| Document Based Chunking | Splits content according to document's inherent structure (headers, code blocks, tables, etc.). Format-aware chunking for Markdown, Python, JS, etc. | [Link](https://medium.com/@david.richards.tech/document-chunking-for-rag-ai-applications-04363d48fbf7) | [Code Example](https://python.langchain.com/v0.1/docs/modules/data_connection/document_transformers/markdown_header_metadata/) |
+| Semantic Chunking | Creates chunks based on semantic similarity rather than size. Keeps related content together by analyzing embedding similarity at potential breakpoints. | [Link](https://www.youtube.com/watch?v=8OJC21T2SL4&t=1933s) | [Code Example](https://colab.research.google.com/github/run-llama/llama_index/blob/main/docs/docs/examples/node_parsers/semantic_chunking.ipynb) |
+| Agentic Chunking | Uses LLM-based agents to intelligently determine chunk boundaries based on context and content. Can identify standalone propositions for optimal chunking. | [Link](https://www.youtube.com/watch?v=8OJC21T2SL4&t=2889s) | [Code Example](https://github.com/Ranjith-JS2803/Agentic-Chunker) |
 
 ## Agent Framework
 
