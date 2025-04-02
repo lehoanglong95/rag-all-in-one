@@ -29,7 +29,7 @@ RAG All-in-one is a guide to building Retrieval-Augmented Generation (RAG) appli
 | [📄 Document Ingestor](#document-ingestor) | Tools for ingesting and processing raw documents. Document loaders, parsers, and preprocessing tools |
 | [✂️ Chunking Techniques](#chunking-techniques) | Methods and tools for breaking down documents into manageable pieces for processing and retrieval |
 | [🤖 Agent Framework](#agent-framework) | End-to-end frameworks for building RAG applications. Unified solutions for RAG implementation |
-| [📀 Database](#vector-database) | Databases optimized for storing and searching vector embeddings. Vector storage, similarity search, and indexing |
+| [📀 Database](#database) | Databases optimized for storing and searching vector embeddings. Vector storage, similarity search, and indexing |
 | [💻 LLM](#llm) | Large Language Models for generating responses. LLM providers and frameworks |
 | [📝 Embedding](#embedding) | Models and services for creating text embeddings. Embedding models and APIs |
 | [🖥️ LLM Observability](#llm-observability) | Tools for monitoring and analyzing LLM performance. Logging, tracing, and analytics |
@@ -109,9 +109,9 @@ Databases optimized for storing and efficiently searching vector embeddings/text
 | Milvus | Open-source vector database | [GitHub](https://github.com/milvus-io/milvus) | ![GitHub stars](https://img.shields.io/github/stars/milvus-io/milvus) |
 | Qdrant | Vector similarity search engine | [GitHub](https://github.com/qdrant/qdrant) | ![GitHub stars](https://img.shields.io/github/stars/qdrant/qdrant) |
 | Chroma | Open-source embedding database designed for RAG applications | [GitHub](https://github.com/chroma-core/chroma) | ![GitHub stars](https://img.shields.io/github/stars/chroma-core/chroma) |
+| pgvector | Open-source vector similarity search for Postgres | [GitHub](https://github.com/pgvector/pgvector) | ![GitHub stars](https://img.shields.io/github/stars/pgvector/pgvector) |
 | Weaviate | Open-source vector search engine | [GitHub](https://github.com/weaviate/weaviate) | ![GitHub stars](https://img.shields.io/github/stars/weaviate/weaviate) |
 | LanceDB | Developer-friendly, embedded retrieval engine for multimodal AI | [GitHub](https://github.com/lancedb/lancedb) | ![GitHub stars](https://img.shields.io/github/stars/lancedb/lancedb) |
-| pgvector | Open-source vector similarity search for Postgres | [GitHub](https://github.com/pgvector/pgvector) | ![GitHub stars](https://img.shields.io/github/stars/pgvector/pgvector) |
 | Pinecone | Managed vector database for semantic search | [Link](https://www.pinecone.io/) |  |
 | MongoDB | General-purpose document database | [Link](https://www.mongodb.com/) |  |
 | Elasticsearch | Search and analytics engine that can store documents | [Link](https://www.elastic.co/) |  |
