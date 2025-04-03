@@ -58,6 +58,17 @@ Comprehensive courses and learning resources for mastering RAG systems.
 | AI: Advanced RAG | ![edX](https://img.shields.io/badge/edX-02262B?style=flat-square&logo=edx&logoColor=white) | Enterprise-grade RAG techniques, embedding strategies, document processing | [Link](https://www.edx.org/learn/computer-science/pragmatic-ai-labs-advanced-rag?index=product&queryID=67699afa89a44a42e3aec1413f0152ed&position=1&results_level=first-level-results&term=AI%3A+Advanced+RAG%09&objectID=course-69f4b8db-8a82-4439-87a2-7f5b1fe5334b&campaign=Advanced+RAG) | Advanced |
 | Advanced Retrieval-Augmented Generation (RAG) for Large Language Models | ![FutureLearn](https://img.shields.io/badge/FutureLearn-DE00A5?style=flat-square&logo=futurelearn&logoColor=white) | Advanced embedding strategies, hybrid search systems, sparse indexing | [Link](https://www.futurelearn.com/courses/rag-for-large-language-models) | Advanced |
 
+### Books on RAG
+
+| Book | Description | Link |
+|------|-------------|------|
+| Building LLMs in Production | Covers building reliable and scalable LLM applications with a focus on RAG systems. Includes techniques for fine-tuning, evaluation, and deployment of production-ready LLM applications. | [Link](https://www.amazon.com.au/Building-LLMs-Production-Reliability-Fine-Tuning/dp/B0D4FFPFW8) |
+| Hands-on RAG Development | Focuses on using LangChain and Python to create RAG applications. Covers foundational concepts, practical tutorials, and real-world applications. Includes topics like packaging, deployment, and the future of RAG systems. | [Link](https://www.booktopia.com.au/hands-on-rag-development-steven-hay/ebook/1230007612480.html) |
+| Enterprise RAG | Aimed at building scalable, production-ready RAG systems for enterprise use. Discusses advanced techniques like agent-based retrieval, query rewriting, and handling hallucinations. Includes practical advice for deploying and maintaining RAG systems. | [Link](https://www.manning.com/books/enterprise-rag) |
+| Knowledge Graph-Enhanced RAG | Focuses on integrating knowledge graphs into RAG systems for improved accuracy and traceability. Offers hands-on techniques for building tools like vector similarity search and knowledge graphs. | [Link](https://www.manning.com/books/essential-graphrag?utm_source=reddit&utm_medium=social&utm_campaign=book_bratanic3&utm_content=launch) |
+| A Simple Guide to Retrieval Augmented Generation | Designed for beginners, this book simplifies RAG concepts and provides step-by-step guidance. Covers modular approaches, LangChain integration, and reducing hallucinations in LLMs. | [Link](https://www.manning.com/books/a-simple-guide-to-retrieval-augmented-generation?utm_source=reddit&utm_medium=social&utm_campaign=book_kimothi&utm_content=launch) |
+| RAG-Driven Generative AI | Comprehensive guide to building RAG systems with practical implementations and real-world use cases. | [Link](https://www.packtpub.com/en-au/product/rag-driven-generative-ai-9781836200918?type=subscription) |
+
 ## Document Ingestor
 
 Tools and libraries for ingesting various document formats, extracting text, and preparing data for further processing.
