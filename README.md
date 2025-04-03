@@ -32,6 +32,7 @@ RAG All-in-one is a guide to building Retrieval-Augmented Generation (RAG) appli
 | [📀 Database](#database) | Databases optimized for storing and searching vector embeddings. Vector storage, similarity search, and indexing |
 | [💻 LLM](#llm) | Large Language Models for generating responses. LLM providers and frameworks |
 | [📝 Embedding](#embedding) | Models and services for creating text embeddings. Embedding models and APIs |
+| [🔧 Fine-tuning](#fine-tuning) | Tools and techniques for customizing LLMs to specific domains or tasks |
 | [🖥️ LLM Observability](#llm-observability) | Tools for monitoring and analyzing LLM performance. Logging, tracing, and analytics |
 | [📕 Prompt Techniques](#prompt-techniques) | Methods for effective prompt engineering. Prompt templates and frameworks |
 | [🤔 Evaluation](#evaluation) | Tools for assessing RAG system performance. Metrics and evaluation frameworks |
@@ -144,6 +145,21 @@ Models and services for creating vector representations of text.
 | Hugging Face Embeddings | Various embedding models | [Link](https://huggingface.co/models?pipeline_tag=feature-extraction) |
 | E5 Embeddings | Microsoft's text embeddings | [Link](https://huggingface.co/intfloat/e5-large-v2) |
 | BGE Embeddings | BAAI general embeddings | [Link](https://huggingface.co/BAAI/bge-large-en-v1.5) |
+
+## Fine-tuning
+
+Tools and techniques for customizing LLMs to specific domains or tasks.
+
+| Library | Description | Link | GitHub Stars 🌟 |
+|---------|-------------|------|-------------|
+| OpenAI Fine-tuning | API for fine-tuning OpenAI models on custom datasets | [Link](https://platform.openai.com/docs/guides/fine-tuning) |  |
+| LLaMA Factory | Unified fine-tuning framework for LLMs with various methods and datasets | [GitHub](https://github.com/hiyouga/LLaMA-Factory) | ![GitHub stars](https://img.shields.io/github/stars/hiyouga/LLaMA-Factory) |
+| Unsloth | Efficient fine-tuning for LLMs with 2-5x speedup and reduced memory usage | [GitHub](https://github.com/unslothai/unsloth) | ![GitHub stars](https://img.shields.io/github/stars/unslothai/unsloth) |
+| PEFT | Parameter-Efficient Fine-Tuning methods like LoRA, QLoRA, and Adapters | [GitHub](https://github.com/huggingface/peft) | ![GitHub stars](https://img.shields.io/github/stars/huggingface/peft) |
+| TRL | Transformer Reinforcement Learning library for RLHF, DPO, and PPO fine-tuning | [GitHub](https://github.com/huggingface/trl) | ![GitHub stars](https://img.shields.io/github/stars/huggingface/trl) |
+| LitGPT | Lightweight implementation for fine-tuning LLMs with PyTorch Lightning | [GitHub](https://github.com/Lightning-AI/lit-gpt) | ![GitHub stars](https://img.shields.io/github/stars/Lightning-AI/lit-gpt) |
+| Axolotl | User-friendly tool for fine-tuning LLMs with support for multiple architectures | [GitHub](https://github.com/OpenAccess-AI-Collective/axolotl) | ![GitHub stars](https://img.shields.io/github/stars/OpenAccess-AI-Collective/axolotl) |
+| Mergekit | Tools for merging multiple fine-tuned LLMs into a single model | [GitHub](https://github.com/cg123/mergekit) | ![GitHub stars](https://img.shields.io/github/stars/cg123/mergekit) |
 
 ## LLM Observability
 
