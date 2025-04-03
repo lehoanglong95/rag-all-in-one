@@ -168,6 +168,7 @@ Tools for monitoring, analyzing, and improving LLM applications.
 
 | Library | Description | Link | GitHub Stars 🌟                                                                       |
 |------|-------------|------|---------------------------------------------------------------------------|
+| MLflow | Platform for managing the ML lifecycle, including tracking experiments, packaging code, and model deployment with LLM tracking capabilities | [GitHub](https://github.com/mlflow/mlflow) | ![GitHub stars](https://img.shields.io/github/stars/mlflow/mlflow) |
 | Langfuse | Open source LLM engineering platform | [GitHub](https://github.com/langfuse/langfuse) | ![GitHub stars](https://img.shields.io/github/stars/langfuse/langfuse) |
 | Opik/Comet | Debug, evaluate, and monitor LLM applications with tracing, evaluations, and dashboards | [GitHub](https://github.com/comet-ml/opik) | ![GitHub stars](https://img.shields.io/github/stars/comet-ml/opik) |
 | Phoenix/Arize | Open-source observability for LLM applications | [GitHub](https://github.com/Arize-ai/phoenix) | ![GitHub stars](https://img.shields.io/github/stars/Arize-ai/phoenix) |
