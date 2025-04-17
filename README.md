@@ -28,6 +28,7 @@ RAG All-in-one is a guide to building Retrieval-Augmented Generation (RAG) appli
 | [📚 Courses and Learning Materials](#courses-and-learning-materials) | Comprehensive courses and learning resources for mastering RAG systems |
 | [📄 Document Ingestor](#document-ingestor) | Tools for ingesting and processing raw documents. Document loaders, parsers, and preprocessing tools |
 | [✂️ Chunking Techniques](#chunking-techniques) | Methods and tools for breaking down documents into manageable pieces for processing and retrieval |
+| [🔍 Retrieval](#retrieval) | Advanced techniques and methods for retrieving relevant information in RAG systems using LlamaIndex |
 | [🤖 Agent Framework](#agent-framework) | End-to-end frameworks for building RAG applications. Unified solutions for RAG implementation |
 | [📀 Database](#database) | Databases optimized for storing and searching vector embeddings. Vector storage, similarity search, and indexing |
 | [💻 LLM](#llm) | Large Language Models for generating responses. LLM providers and frameworks |
@@ -96,6 +97,20 @@ Methods and tools for breaking down documents into manageable pieces for process
 | Document Based Chunking | Splits content according to document's inherent structure (headers, code blocks, tables, etc.). Format-aware chunking for Markdown, Python, JS, etc. | [Link](https://medium.com/@david.richards.tech/document-chunking-for-rag-ai-applications-04363d48fbf7) | [Code Example](https://python.langchain.com/v0.1/docs/modules/data_connection/document_transformers/markdown_header_metadata/) |
 | Semantic Chunking | Creates chunks based on semantic similarity rather than size. Keeps related content together by analyzing embedding similarity at potential breakpoints. | [Link](https://www.youtube.com/watch?v=8OJC21T2SL4&t=1933s) | [Code Example](https://colab.research.google.com/github/run-llama/llama_index/blob/main/docs/docs/examples/node_parsers/semantic_chunking.ipynb) |
 | Agentic Chunking | Uses LLM-based agents to intelligently determine chunk boundaries based on context and content. Can identify standalone propositions for optimal chunking. | [Link](https://www.youtube.com/watch?v=8OJC21T2SL4&t=2889s) | [Code Example](https://github.com/Ranjith-JS2803/Agentic-Chunker) |
+
+## Retrieval
+
+Advanced techniques and methods for retrieving relevant information in RAG systems using LlamaIndex.
+
+| Technique | Description | Implementation | Link |
+|-----------|-------------|----------------|-----------|
+| Fusion Retrieval | Combines different retrieval methods for more comprehensive results | - Hybrid retriever combining keyword and vector search<br>- Customizable weighting between retrieval methods | [Link](https://docs.llamaindex.ai/en/stable/examples/low_level/fusion_retriever/) |
+| Intelligent Reranking | Advanced scoring mechanisms to improve relevance ranking | - LLM-based reranking with custom prompts<br>- Metadata-aware reranking<br>- Cross-encoder reranking | [Link](https://docs.llamaindex.ai/en/stable/examples/workflow/rag/) |
+| Multi-faceted Filtering | Various filtering techniques to refine results | - Metadata filtering with custom filters<br>- Similarity threshold filtering<br>- Content-based filtering | |
+| Hierarchical Indices | Multi-tiered system for efficient information navigation | - Summary index for high-level overview<br>- Document index for detailed retrieval<br>- Recursive retrieval across indices | [Link](https://medium.com/@nirdiamant21/hierarchical-indices-enhancing-rag-systems-43c06330c085) |
+| Ensemble Retrieval | Combines multiple retrieval models for robust results | - Multiple embedding models<br>- Customizable ensemble strategies<br>- Weighted voting mechanisms | [Link](https://docs.llamaindex.ai/en/stable/examples/retrievers/ensemble_retrieval/) |
+| Dartboard Retrieval | Optimizes for both relevance and diversity | - Combined scoring function<br>- Direct optimization for information gain | [Link](https://arxiv.org/html/2407.12101v1) |
+| Multi-modal Retrieval | Handles diverse data types for richer responses | - Image-to-text retrieval<br>- Multi-modal embeddings<br>- Cross-modal similarity search | [Link](https://docs.llamaindex.ai/en/stable/examples/multi_modal/gpt4v_multi_modal_retrieval/) |
 
 ## Agent Framework
 
