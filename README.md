@@ -29,6 +29,7 @@ RAG All-in-one is a guide to building Retrieval-Augmented Generation (RAG) appli
 | [📄 Document Ingestor](#document-ingestor) | Tools for ingesting and processing raw documents. Document loaders, parsers, and preprocessing tools |
 | [✂️ Chunking Techniques](#chunking-techniques) | Methods and tools for breaking down documents into manageable pieces for processing and retrieval |
 | [🔍 Retrieval](#retrieval) | Advanced techniques and methods for retrieving relevant information in RAG systems using LlamaIndex |
+| [🔄 Query Transform](#query-transform) | Advanced techniques for improving query quality and retrieval effectiveness in RAG systems |
 | [🤖 Agent Framework](#agent-framework) | End-to-end frameworks for building RAG applications. Unified solutions for RAG implementation |
 | [📀 Database](#database) | Databases optimized for storing and searching vector embeddings. Vector storage, similarity search, and indexing |
 | [💻 LLM](#llm) | Large Language Models for generating responses. LLM providers and frameworks |
@@ -111,6 +112,15 @@ Advanced techniques and methods for retrieving relevant information in RAG syste
 | Ensemble Retrieval | Combines multiple retrieval models for robust results | - Multiple embedding models<br>- Customizable ensemble strategies<br>- Weighted voting mechanisms | [Link](https://docs.llamaindex.ai/en/stable/examples/retrievers/ensemble_retrieval/) |
 | Dartboard Retrieval | Optimizes for both relevance and diversity | - Combined scoring function<br>- Direct optimization for information gain | [Link](https://arxiv.org/html/2407.12101v1) |
 | Multi-modal Retrieval | Handles diverse data types for richer responses | - Image-to-text retrieval<br>- Multi-modal embeddings<br>- Cross-modal similarity search | [Link](https://docs.llamaindex.ai/en/stable/examples/multi_modal/gpt4v_multi_modal_retrieval/) |
+
+## Query Transform
+
+Advanced techniques for improving query quality and retrieval effectiveness in RAG systems.
+
+| Technique | Description | Implementation | Link |
+|-----------|-------------|----------------|-----------|
+| Query Transformation | Transforms user queries to improve retrieval effectiveness by generating multiple variations or reformulations of the original query | - Multi-query generation<br>- Query rewriting<br>- RAG-Fusion with reciprocal rank fusion | [Link](https://blog.langchain.dev/query-transformations/) |
+| Hypothetical Questions (HyDE) | Generates hypothetical documents that answer the query, then uses these for similarity search to improve retrieval | - LLM-based hypothetical document generation<br>- Embedding-based similarity search<br>- Combined retrieval with original query | [Link](https://python.langchain.com/v0.1/docs/use_cases/query_analysis/techniques/hyde/) |
 
 ## Agent Framework
 
