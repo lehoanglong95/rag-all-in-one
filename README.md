@@ -257,6 +257,7 @@ Tools and frameworks for assessing and improving RAG system performance.
 | LightEval | All-in-one toolkit for evaluating LLMs | [GitHub](https://github.com/huggingface/lighteval) | ![GitHub stars](https://img.shields.io/github/stars/huggingface/lighteval) |
 | LangTest | Test suite for comparing LLM models on accuracy, bias, fairness and robustness | [GitHub](https://github.com/JohnSnowLabs/langtest) | ![GitHub stars](https://img.shields.io/github/stars/JohnSnowLabs/langtest) |
 | AgentEvals | Evaluators and utilities for measuring agent performance | [GitHub](https://github.com/langchain-ai/agentevals) | ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/agentevals) |
+| ai-evaluation | Open-source LLM evaluation framework with 50+ metrics, LLM-as-Judge, and guardrail scanners (jailbreak, PII, injection); supports RAG metrics | [GitHub](https://github.com/future-agi/ai-evaluation) | ![GitHub stars](https://img.shields.io/github/stars/future-agi/ai-evaluation) |
 
 ## User Interface
 
