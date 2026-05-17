@@ -212,6 +212,7 @@ Tools for monitoring, analyzing, and improving LLM applications.
 | Openlit | Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground | [GitHub](https://github.com/openlit/openlit) | ![GitHub stars](https://img.shields.io/github/stars/openlit/openlit) |
 | Lunary | The production toolkit for LLMs. Observability, prompt management and evaluations. | [GitHub](https://github.com/lunary-ai/lunary) | ![GitHub stars](https://img.shields.io/github/stars/lunary-ai/lunary) |
 | Langtrace | OpenTelemetry-based observability tool for LLM applications with real-time tracing and metrics | [GitHub](https://github.com/Scale3-Labs/langtrace) | ![GitHub stars](https://img.shields.io/github/stars/Scale3-Labs/langtrace) |
+| Future AGI | Open-source self-hostable LLMOps platform unifying tracing, evals, simulations, datasets, gateway, and guardrails | [GitHub](https://github.com/future-agi/future-agi) | ![GitHub stars](https://img.shields.io/github/stars/future-agi/future-agi) |
 
 ## Prompt Techniques
 
