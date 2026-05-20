@@ -213,6 +213,7 @@ Tools for monitoring, analyzing, and improving LLM applications.
 | Lunary | The production toolkit for LLMs. Observability, prompt management and evaluations. | [GitHub](https://github.com/lunary-ai/lunary) | ![GitHub stars](https://img.shields.io/github/stars/lunary-ai/lunary) |
 | Langtrace | OpenTelemetry-based observability tool for LLM applications with real-time tracing and metrics | [GitHub](https://github.com/Scale3-Labs/langtrace) | ![GitHub stars](https://img.shields.io/github/stars/Scale3-Labs/langtrace) |
 | Future AGI | Open-source self-hostable LLMOps platform unifying tracing, evals, simulations, datasets, gateway, and guardrails | [GitHub](https://github.com/future-agi/future-agi) | ![GitHub stars](https://img.shields.io/github/stars/future-agi/future-agi) |
+| traceAI | OpenTelemetry-native tracing for LLM and AI agent apps; auto-instruments OpenAI, Anthropic, LangChain, LlamaIndex, CrewAI, Bedrock | [GitHub](https://github.com/future-agi/traceAI) | ![GitHub stars](https://img.shields.io/github/stars/future-agi/traceAI) |
 
 ## Prompt Techniques
 
@@ -258,6 +259,7 @@ Tools and frameworks for assessing and improving RAG system performance.
 | LightEval | All-in-one toolkit for evaluating LLMs | [GitHub](https://github.com/huggingface/lighteval) | ![GitHub stars](https://img.shields.io/github/stars/huggingface/lighteval) |
 | LangTest | Test suite for comparing LLM models on accuracy, bias, fairness and robustness | [GitHub](https://github.com/JohnSnowLabs/langtest) | ![GitHub stars](https://img.shields.io/github/stars/JohnSnowLabs/langtest) |
 | AgentEvals | Evaluators and utilities for measuring agent performance | [GitHub](https://github.com/langchain-ai/agentevals) | ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/agentevals) |
+| ai-evaluation | Open-source LLM evaluation framework with 50+ metrics, LLM-as-Judge, and guardrail scanners (jailbreak, PII, injection); supports RAG metrics | [GitHub](https://github.com/future-agi/ai-evaluation) | ![GitHub stars](https://img.shields.io/github/stars/future-agi/ai-evaluation) |
 
 ## User Interface
 
